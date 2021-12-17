@@ -71,3 +71,72 @@ Explanation:
 Max subarray sum is 9
 of elements (1, 2, 3, -2, 5) which 
 is a contiguous subarray.
+
+Day 4
+
+1. Given N coordinates on a two dimensional plane. Find the area of the smallest rectangle such that all the points can lie inside or on the rectangle boundary.
+Note - the sides of rectangle should be parallel to x and y axis. [ Untouched ]
+Sample Input
+2
+0 0
+1 1
+
+Sample Output
+1
+
+Explanation: required rectangle has corners at (0, 0) (0, 1) (1, 1) (1, 0)
+
+2. You have N coins with either an integer (between 0-9) written on one side and an english letter (a- z) written on the other side.
+
+The following statement must be true for all coins:
+If the coin has a vowel on one side, then it must have an even integer on other side.
+
+For example coin having 'b' and '3' is valid (since 'b' is not a vowel, other side can be anything), coin having 'a' and '4' is valid, but coin having 'a' and '5' is invalid.
+
+Now you're given just one side of each coin, find the minimum number of coins you need to flip to check the authenticity of the statement.
+
+Sample Input
+ee
+
+Sample Output
+2
+
+Explanation: You need to flip both the coins to make sure an even integer is there on the other side of coin.
+
+Sample Input
+0ay1
+
+Sample Output
+2
+
+3. Given an array of N elements where each element is either 1 or 0. You have to divide the array into maximum number of subarrays such that each element of the array is in exactly one subarray such that each subarray has equal number of 1's and 0's. [Incomplete]
+
+Sample input 1
+4
+1 0 1 0
+
+Sample output 1
+2
+
+Sample input 2
+4
+1 1 0 0
+
+Sample output 2
+1
+
+4. Given a string of length N, count the number of vowels present at even places.
+
+Sample Input:-
+12
+newtonschool
+
+Sample Output:-
+2
+
+Sample Input:-
+5
+basid
+
+Sample Output:-
+2
